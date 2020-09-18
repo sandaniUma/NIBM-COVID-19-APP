@@ -18,14 +18,14 @@ class LogoutViewController: UIViewController {
     
     
     @IBAction func signout(_ sender: UIButton) {
-        
+
         let firebaseAuth = Auth.auth()
-        
+
         do{
             try firebaseAuth.signOut()
-            
+
             self.navigationController?.popViewController(animated: true)
-            
+
             }catch let signoutErr as NSError {
             print("ERROR: %@", signoutErr)
         }
