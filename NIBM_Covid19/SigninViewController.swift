@@ -10,6 +10,11 @@ import Firebase
 
 class SigninViewController: UIViewController {
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        // Do any additional setup after loading the view.
+    }
     
     @IBOutlet weak var firstName: UITextField!
     
@@ -23,13 +28,9 @@ class SigninViewController: UIViewController {
     
     @IBOutlet weak var userPassword: UITextField!
     
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
-    }
     
-
+    var ref: DatabaseReference!
+    
     @IBAction func signUpbutten(_ sender: Any) {
         
         if let email = emailUser.text, let password = userPassword.text {
@@ -39,12 +40,25 @@ class SigninViewController: UIViewController {
                 print(e)
             }
             else{
-                self.performSegue(withIdentifier: "sgSegway" , sender: self)
+//                self.performSegue(withIdentifier: "sgSegway" , sender: self)
+                let userID = authResult?.user.uid
+                let userFirstName = self.firstName.text
+                let userLastName = self.lastName.text
+                let userEmail = self.emailUser.text
+                let userRoles = self.userRole.text
+                
+                self.ref = Database.database().reference()
+                self.ref.child("users").child(userID ?? "").setValue(["firstName": userFirstName, "lastName": userLastName, "emailUser": userEmail, "userRoles": userRoles])
+            
+                self.performSegue(withIdentifier: "sgSegway", sender: self)
+                print("Signed in!")
             }
         
-    }
-           
         }
+           
+    }
+        
+    }
     /*
     // MARK: - Navigation
 
@@ -54,5 +68,5 @@ class SigninViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
-        }
+        
 }

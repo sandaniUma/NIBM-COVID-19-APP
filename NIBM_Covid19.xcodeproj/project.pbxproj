@@ -22,6 +22,8 @@
 		CC5D5698250F952E0022DFAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC5D5696250F952E0022DFAC /* LaunchScreen.storyboard */; };
 		CC5D56A3250F952E0022DFAC /* NIBM_Covid19Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5D56A2250F952E0022DFAC /* NIBM_Covid19Tests.swift */; };
 		CC5D56AE250F952E0022DFAC /* NIBM_Covid19UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC5D56AD250F952E0022DFAC /* NIBM_Covid19UITests.swift */; };
+		CC960EE42514D6CE00999E57 /* UserProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC960EE32514D6CE00999E57 /* UserProfileViewController.swift */; };
+		CC960EE62514DF6C00999E57 /* LogoutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC960EE52514DF6C00999E57 /* LogoutViewController.swift */; };
 		E6A114CF280686E3DBBAE0FF /* Pods_NIBM_Covid19.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8BCD76B5A188E53FC4A8572 /* Pods_NIBM_Covid19.framework */; };
 /* End PBXBuildFile section */
 
@@ -68,6 +70,8 @@
 		CC5D56A9250F952E0022DFAC /* NIBM_Covid19UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NIBM_Covid19UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC5D56AD250F952E0022DFAC /* NIBM_Covid19UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NIBM_Covid19UITests.swift; sourceTree = "<group>"; };
 		CC5D56AF250F952E0022DFAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC960EE32514D6CE00999E57 /* UserProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = UserProfileViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/UserProfileViewController.swift"; sourceTree = "<absolute>"; };
+		CC960EE52514DF6C00999E57 /* LogoutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LogoutViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/LogoutViewController.swift"; sourceTree = "<absolute>"; };
 		CE206C119ED551888F15C350 /* Pods_NIBM_Covid19UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Covid19UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE8E81347BF265078AAB0ACE /* Pods-NIBM_Covid19Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Covid19Tests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_Covid19Tests/Pods-NIBM_Covid19Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		D8BCD76B5A188E53FC4A8572 /* Pods_NIBM_Covid19.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NIBM_Covid19.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -156,6 +160,8 @@
 				CC50B51B25123DF900EBE1BC /* LoginViewController.swift */,
 				CC50B51D2512513100EBE1BC /* SurveyViewController.swift */,
 				CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */,
+				CC960EE32514D6CE00999E57 /* UserProfileViewController.swift */,
+				CC960EE52514DF6C00999E57 /* LogoutViewController.swift */,
 				CC5D5694250F952E0022DFAC /* Assets.xcassets */,
 				CC5D5696250F952E0022DFAC /* LaunchScreen.storyboard */,
 				CC5D5699250F952E0022DFAC /* Info.plist */,
@@ -430,6 +436,8 @@
 				CC5D568B250F952D0022DFAC /* AppDelegate.swift in Sources */,
 				CC50B51C25123DF900EBE1BC /* LoginViewController.swift in Sources */,
 				CC50B51E2512513100EBE1BC /* SurveyViewController.swift in Sources */,
+				CC960EE42514D6CE00999E57 /* UserProfileViewController.swift in Sources */,
+				CC960EE62514DF6C00999E57 /* LogoutViewController.swift in Sources */,
 				CC5D5693250F952D0022DFAC /* NIBM_Covid19.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

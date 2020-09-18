@@ -25,7 +25,6 @@ class LoginViewController: UIViewController {
         if let email = enailTextFeld.text, let password = passwordTextFeld.text {
             Auth.auth().signIn(withEmail: email, password: password) { authResult, error in
              //   guard let strongSelf = self else { return }
-            // ...
             
             if let e = error{
                 print(e)
