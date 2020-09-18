@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "idiom" : "universal",
+      "filename" : "emoji-smiley-face-emoticon-computer-icons-blushing-emoji-png-smiley-faces-emoticons-png-2083_2083.png",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "emoji-smiley-face-emoticon-computer-icons-blushing-emoji-png-smiley-faces-emoticons-png-2083_2083-1.png",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "filename" : "emoji-smiley-face-emoticon-computer-icons-blushing-emoji-png-smiley-faces-emoticons-png-2083_2083-2.png",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  }
+}

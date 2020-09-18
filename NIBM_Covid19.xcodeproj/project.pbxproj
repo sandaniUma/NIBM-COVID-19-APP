@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		6300448381186771B3DF50D6 /* Pods_NIBM_Covid19Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361CB71BEDCA1A8D2D6EFCF2 /* Pods_NIBM_Covid19Tests.framework */; };
 		C6D95F222E3E06327D935EC5 /* Pods_NIBM_Covid19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE206C119ED551888F15C350 /* Pods_NIBM_Covid19UITests.framework */; };
+		CC0EC1EE2513AEE000A682F7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */; };
 		CC50B5162512378B00EBE1BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC50B5152512378B00EBE1BC /* GoogleService-Info.plist */; };
 		CC50B51A25123B9200EBE1BC /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50B51925123B9200EBE1BC /* SigninViewController.swift */; };
 		CC50B51C25123DF900EBE1BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50B51B25123DF900EBE1BC /* LoginViewController.swift */; };
@@ -48,6 +49,7 @@
 		3E1562759217139AE88983BB /* Pods-NIBM_Covid19Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Covid19Tests.release.xcconfig"; path = "Target Support Files/Pods-NIBM_Covid19Tests/Pods-NIBM_Covid19Tests.release.xcconfig"; sourceTree = "<group>"; };
 		6220469269BA927A5A990C47 /* Pods-NIBM_Covid19.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Covid19.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_Covid19/Pods-NIBM_Covid19.debug.xcconfig"; sourceTree = "<group>"; };
 		C4AC7D5C1ADD339CF62047E9 /* Pods-NIBM_Covid19UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Covid19UITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_Covid19UITests/Pods-NIBM_Covid19UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CC50B5152512378B00EBE1BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC50B51925123B9200EBE1BC /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SigninViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/SigninViewController.swift"; sourceTree = "<absolute>"; };
 		CC50B51B25123DF900EBE1BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/LoginViewController.swift"; sourceTree = "<absolute>"; };
@@ -153,6 +155,7 @@
 				CC50B51925123B9200EBE1BC /* SigninViewController.swift */,
 				CC50B51B25123DF900EBE1BC /* LoginViewController.swift */,
 				CC50B51D2512513100EBE1BC /* SurveyViewController.swift */,
+				CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */,
 				CC5D5694250F952E0022DFAC /* Assets.xcassets */,
 				CC5D5696250F952E0022DFAC /* LaunchScreen.storyboard */,
 				CC5D5699250F952E0022DFAC /* Info.plist */,
@@ -423,6 +426,7 @@
 			files = (
 				CC50B51A25123B9200EBE1BC /* SigninViewController.swift in Sources */,
 				CC5D568D250F952D0022DFAC /* ViewController.swift in Sources */,
+				CC0EC1EE2513AEE000A682F7 /* ResultViewController.swift in Sources */,
 				CC5D568B250F952D0022DFAC /* AppDelegate.swift in Sources */,
 				CC50B51C25123DF900EBE1BC /* LoginViewController.swift in Sources */,
 				CC50B51E2512513100EBE1BC /* SurveyViewController.swift in Sources */,
