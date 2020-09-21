@@ -11,6 +11,8 @@
 		C6D95F222E3E06327D935EC5 /* Pods_NIBM_Covid19UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE206C119ED551888F15C350 /* Pods_NIBM_Covid19UITests.framework */; };
 		CC0EC1EE2513AEE000A682F7 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */; };
 		CC1D2B882518DD63004C5F76 /* FaceIDViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2B872518DD61004C5F76 /* FaceIDViewController.swift */; };
+		CC1D2B8A25190265004C5F76 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2B8925190265004C5F76 /* MapViewController.swift */; };
+		CC1D2B8C25190268004C5F76 /* TemperatureUpdateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC1D2B8B25190268004C5F76 /* TemperatureUpdateViewController.swift */; };
 		CC50B5162512378B00EBE1BC /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CC50B5152512378B00EBE1BC /* GoogleService-Info.plist */; };
 		CC50B51A25123B9200EBE1BC /* SigninViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50B51925123B9200EBE1BC /* SigninViewController.swift */; };
 		CC50B51C25123DF900EBE1BC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC50B51B25123DF900EBE1BC /* LoginViewController.swift */; };
@@ -54,6 +56,8 @@
 		C4AC7D5C1ADD339CF62047E9 /* Pods-NIBM_Covid19UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NIBM_Covid19UITests.debug.xcconfig"; path = "Target Support Files/Pods-NIBM_Covid19UITests/Pods-NIBM_Covid19UITests.debug.xcconfig"; sourceTree = "<group>"; };
 		CC0EC1ED2513AEE000A682F7 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 		CC1D2B872518DD61004C5F76 /* FaceIDViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FaceIDViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/FaceIDViewController.swift"; sourceTree = "<absolute>"; };
+		CC1D2B8925190265004C5F76 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/MapViewController.swift"; sourceTree = "<absolute>"; };
+		CC1D2B8B25190268004C5F76 /* TemperatureUpdateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TemperatureUpdateViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/TemperatureUpdateViewController.swift"; sourceTree = "<absolute>"; };
 		CC50B5152512378B00EBE1BC /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CC50B51925123B9200EBE1BC /* SigninViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = SigninViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/SigninViewController.swift"; sourceTree = "<absolute>"; };
 		CC50B51B25123DF900EBE1BC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = "/Users/digital-09/Desktop/S.U.Delpachithra-COBSCCOMP191P-043/NIBM-COVID-19-APP/NIBM_Covid19/LoginViewController.swift"; sourceTree = "<absolute>"; };
@@ -165,6 +169,8 @@
 				CC960EE32514D6CE00999E57 /* UserProfileViewController.swift */,
 				CC960EE52514DF6C00999E57 /* LogoutViewController.swift */,
 				CC1D2B872518DD61004C5F76 /* FaceIDViewController.swift */,
+				CC1D2B8925190265004C5F76 /* MapViewController.swift */,
+				CC1D2B8B25190268004C5F76 /* TemperatureUpdateViewController.swift */,
 				CC5D5694250F952E0022DFAC /* Assets.xcassets */,
 				CC5D5696250F952E0022DFAC /* LaunchScreen.storyboard */,
 				CC5D5699250F952E0022DFAC /* Info.plist */,
@@ -433,6 +439,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CC1D2B8C25190268004C5F76 /* TemperatureUpdateViewController.swift in Sources */,
+				CC1D2B8A25190265004C5F76 /* MapViewController.swift in Sources */,
 				CC50B51A25123B9200EBE1BC /* SigninViewController.swift in Sources */,
 				CC5D568D250F952D0022DFAC /* ViewController.swift in Sources */,
 				CC1D2B882518DD63004C5F76 /* FaceIDViewController.swift in Sources */,
