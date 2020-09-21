@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:NIBM_Covid19/MapViewController.swift">
+   </FileRef>
+   <FileRef
       location = "group:NIBM_Covid19.xcodeproj">
    </FileRef>
    <FileRef

@@ -52,6 +52,13 @@ class SigninViewController: UIViewController {
             
                 self.performSegue(withIdentifier: "sgSegway", sender: self)
                 print("Signed in!")
+                
+                //alert message setup
+                let alert = UIAlertController(title: "Signup Success", message: "Please answer this questions", preferredStyle: UIAlertController.Style.alert)
+                alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+                
+                // show the alert
+                self.present(alert, animated: true, completion: nil)
             }
         
         }
