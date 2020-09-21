@@ -15,7 +15,15 @@ class TemperatureUpdateViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
-
+    @IBOutlet weak var temp: UITextField!
+    
+    
+    @IBAction func btnUpdate(_ sender: UIButton) {
+        
+        
+        
+    }
+    
     /*
     // MARK: - Navigation
 
